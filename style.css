@@ -174,7 +174,7 @@ span{
 }
 /** second row**/
 .content-secondrow{
-    height: 400px;
+    height: 500px;
     margin: 1%;
     display: flex;
     justify-content: space-between;
@@ -200,7 +200,7 @@ span{
 
 .content-sfirst1{
     height: 80%;
-    width: 80%;;
+    width: 80%;
      margin: 20px ;
     background-size:cover;
     background-image: url("forth1.jpg");
@@ -315,4 +315,43 @@ span{
     margin: 20px;
     background-size:cover;
     background-image: url("six4.jpg");
+}
+/** third row**/
+.content-thirdrow{
+    height: 500px;
+    background-image: url(sback.jpeg);
+    margin: 1%;
+   
+}
+.third-row-image{
+    display: flex;
+    height: 95%;
+    width: 100%;
+    margin: 0.5%;
+ 
+}
+.box3{
+    height: 90%;
+    width: 75%;
+    margin: 0.5%;
+    background-color: brown;
+    background-size: cover;
+}
+.third-row-firstbox{
+ background-image: url(sevan1.jpg);
+}
+.third-row-secondtbox{
+    background-image: url(sevan2.jpg);
+}
+.third-row-thirdbox{
+    background-image: url(sevan3.jpg);
+}
+.third-row-fourbox{
+    background-image: url(sevan4.jpg);
+}
+.third-row-fivebox {
+    background-image: url(sevan5.jpg);
+}
+.third-row-sixbox{
+    background-image: url(sevan6.jpg);
 }
