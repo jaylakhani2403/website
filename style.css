@@ -1,0 +1,318 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border : border-box;
+    
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.nav-logo{
+    height: 50px;
+    width: 130px;
+    padding: 2px 8px 1px 6px;
+    margin: 1px;
+}
+.logo{
+    background-image: url("logo1.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+  
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/** box 2**/
+.nav-location{
+    height: 50px;
+    width: 175px;
+    padding: 2px 8px 1px 6px;
+    margin: 1px;  
+    align-items: center;
+}
+.location1{
+    color: #cccccc; 
+    margin-top: 2px;
+      
+}
+.location{
+    color: rgb(255, 255, 255); 
+    display: flex;
+    align-items: center;
+    font-size:  20px; ;
+    font-weight: bold;
+}
+.location2{
+    margin: 5px;
+}
+/** box 3**/
+.nav-serch{
+    margin: 10px;
+    background-color: pink;
+    display: flex;
+    width: 600px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+.nav-serch:hover{
+    border: 2px solid rgba(226, 151, 22, 0.838) ;
+}
+.nav-serch:active{
+    border: 3px solid rgba(226, 151, 22, 0.838) ;
+}
+select{
+    background-color: #f3f3f3;;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.Serch-type{
+    font-size: 1.2rem;
+    width: 100%;
+    border: none;
+}
+.serch-icone{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: rgba(226, 151, 22, 0.838);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+/** box4**/
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/**box5**/
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 1rem;
+    font-weight: 600;
+}
+/**  apna panel **/
+.panal{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panal-ops p{
+    display: inline;
+    margin: 10px;
+    padding: 0.5%;
+}
+.panal-ops{
+    width: 70%;
+    font-size: 0.9rem;
+}
+   
+.panal-deals{
+    font-size: 1rem;
+    font-weight: 700;
+}
+/**    content box**/
+
+.content-firstrow{
+    height: 150px;
+    margin: 1%;
+    display: flex;
+    
+}
+.content-first{
+    
+    width: 550px;
+    border-radius: 4px;
+    background-color: aqua;
+    background-size: cover;
+    background-image: url("firstphoto.jpg");
+}
+.content-second{
+   
+    width: 550px;
+    border-radius: 4px;
+    background-color: aqua;
+    background-size:cover;
+    background-image: url("second.jpg");
+}
+.content-third{
+
+    width: 500px;
+    border-radius: 4px;
+    background-color: aqua;
+    background-size:cover;
+    background-image: url("third.jpg");
+}
+.border1{
+    border: 2px solid transparent;
+
+}
+.border1:hover{
+    border: 2px solid rgb(27, 25, 25);
+}
+/** second row**/
+.content-secondrow{
+    height: 400px;
+    margin: 1%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-size: cover;
+    background-image: url(sback.jpeg);
+}
+.firstbox{
+    margin: 5px;  
+    display: grid;
+    place-items: center;
+}
+.first-image{
+    height: 400px;
+    width: 400px;
+    border-radius: 4px;
+    background-size: cover;
+    background-image: url(boxbak.png);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.content-sfirst1{
+    height: 80%;
+    width: 80%;;
+     margin: 20px ;
+    background-size:cover;
+    background-image: url("forth1.jpg");
+}
+.content-sfirst2{
+    height: 80%;;
+    width: 80%;;
+     margin: 20px ;
+    background-size: cover;
+    background-image: url("forth2.jpg");
+}
+.content-sfirst3{
+    height: 80%;
+    width: 80%;
+     margin: 20px ;
+    background-size: cover;
+    background-image: url("forth3.jpg");
+}
+.content-sfirst4{
+    height: 80%;
+    width: 80%;
+     margin: 20px ;
+    background-size: cover;
+    background-image: url("forth4.jpg");
+}
+
+.secondbox{
+    margin: 5px;  
+    display: grid;
+    place-items: center;
+
+}
+.second-image{
+    height: 400px;
+    width: 400px;
+    border-radius: 4px;
+    background-size: cover;
+    background-image: url(boxbak.png);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.content-ssecond1{
+    height: 75%;
+    width: 75%;
+    margin: 20px;
+    background-size:cover;
+    background-image: url("five1.jpg");
+}
+.content-ssecond2{
+    height: 75%;
+    width: 75%;
+    margin: 20px;
+    background-size:cover;
+    background-image: url("five2.jpg");
+}
+.content-ssecond3{
+    height: 75%;
+    width: 75%;
+    margin: 20px;
+    background-size:cover;
+    background-image: url("five3.jpg");
+}
+.content-ssecond4{
+    height: 75%;
+    width: 75%;
+    margin: 20px;
+    background-size:cover;
+    background-image: url("five4.jpg");
+    
+}
+.thirdbox{
+    display: grid;
+    place-items: center;
+    margin: 5px;
+
+}
+.third-image{
+    height: 400px;
+    width: 400px;
+    border-radius: 4px;
+    background-size: cover;
+    background-image: url(boxbak.png);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.content-sthird1{
+    height: 75%;
+    width: 75%;
+    margin: 20px;
+    background-size:cover;
+    background-image: url("six1.jpg");
+}
+.content-sthird2{
+    height: 75%;
+    width: 75%;
+    margin: 20px;
+    background-size:cover;
+    background-image: url("six2.jpg");
+}
+.content-sthird3{
+    height: 75%;
+    width: 75%;
+    margin: 20px;
+    background-size:cover;
+    background-image: url("six3.jpg");
+}
+.content-sthird4{
+    height: 75%;
+    width: 75%;
+    margin: 20px;
+    background-size:cover;
+    background-image: url("six4.jpg");
+}
