@@ -2,9 +2,14 @@
     margin: 0px;
     font-family: Arial;
     border : border-box;
+    text-decoration: none;
+ 
     
 }
-
+a{
+    text-decoration: none;
+    color:white;
+}
 .navbar{
     height: 60px;
     background-color: #0f1111;
@@ -113,7 +118,7 @@ span{
 /**  apna panel **/
 .panal{
     height: 40px;
-    background-color: #222f3d;
+    background-color:white;
     display: flex;
     color: white;
     align-items: center;
@@ -145,7 +150,7 @@ span{
     
     width: 550px;
     border-radius: 4px;
-    background-color: aqua;
+
     background-size: cover;
     background-image: url("firstphoto.jpg");
 }
@@ -153,7 +158,7 @@ span{
    
     width: 550px;
     border-radius: 4px;
-    background-color: aqua;
+ 
     background-size:cover;
     background-image: url("second.jpg");
 }
@@ -161,7 +166,7 @@ span{
 
     width: 500px;
     border-radius: 4px;
-    background-color: aqua;
+  
     background-size:cover;
     background-image: url("third.jpg");
 }
@@ -181,11 +186,12 @@ span{
     flex-direction: row;
     background-size: cover;
     background-image: url(sback.jpeg);
+    color: #0f1111;
 }
+
 .firstbox{
     margin: 5px;  
-    display: grid;
-    place-items: center;
+    color: black;
 }
 .first-image{
     height: 400px;
@@ -196,6 +202,10 @@ span{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    color: black;
+}
+.contain-2row-1box-p{
+    color: #0f1111;
 }
 
 .content-sfirst1{
@@ -204,6 +214,7 @@ span{
      margin: 20px ;
     background-size:cover;
     background-image: url("forth1.jpg");
+    color: #0f1111;
 }
 .content-sfirst2{
     height: 80%;;
@@ -229,8 +240,6 @@ span{
 
 .secondbox{
     margin: 5px;  
-    display: grid;
-    place-items: center;
 
 }
 .second-image{
@@ -273,10 +282,7 @@ span{
     
 }
 .thirdbox{
-    display: grid;
-    place-items: center;
     margin: 5px;
-
 }
 .third-image{
     height: 400px;
@@ -331,6 +337,8 @@ span{
  
 }
 .box3{
+    display: flex;
+    flex-wrap: wrap;
     height: 90%;
     width: 75%;
     margin: 0.5%;
@@ -355,5 +363,42 @@ span{
 .third-row-sixbox{
     background-image: url(sevan6.jpg);
 }
+.space{
+    height: 300px;
+    background-color:white;
+}
+
+/**  footer  **/
+.footerbox{
+    height: 400px;
+    background-color: #222f3d;
+   
+}
+.back{
+    background-color: #3f5872;
+    height: 50px;
+    width: 100%;
+    font-size: large;
+    font-weight: 700;
+    display: grid;
+    place-items: center;
+}
+.back:hover{
+    background-color: #597a9c;
+}
+.footer-firstbox{
+    height: 250px ;
+    width: 10rem;
+    padding: 0 10px;
+    margin-top: 4rem;
+ 
+   
+}
+.footer-details{
+    color:white;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
 
 
+}
