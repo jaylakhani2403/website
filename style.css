@@ -146,28 +146,66 @@ span{
     display: flex;
     
 }
+
 .content-first{
     
     width: 550px;
     border-radius: 4px;
-
-    background-size: cover;
+    background-size: 100% 100%;
     background-image: url("firstphoto.jpg");
+    
+    animation:firstanimation 15s linear infinite ;
+}
+@keyframes firstanimation {
+    0%{
+        background-image: url("firstphoto.jpg");
+    }  
+    25%{
+        background-image: url("animation1.jpg");
+    }    
+    50%{
+        background-image: url("animation2.jpg");
+    }    
+    75%{
+        background-image: url("animation3.jpg");
+    }    
+    100%{
+        background-image: url("animation4.jpg");
+    }      
 }
 .content-second{
    
     width: 550px;
     border-radius: 4px;
  
-    background-size:cover;
+    background-size:100% 100%;
     background-image: url("second.jpg");
+    animation:secondanimation 50s ease infinite ;
 }
+@keyframes secondanimation {
+    0%{
+        background-image: url("second.jpg");
+    }  
+    25%{
+        background-image: url("animation5.jpg");
+    }    
+    50%{
+        background-image: url("animation6.jpg");
+    }    
+    75%{
+        background-image: url("animation7.jpg");
+    }    
+    100%{
+        background-image: url("animation8.jpg");
+    }      
+}
+
 .content-third{
 
     width: 500px;
     border-radius: 4px;
   
-    background-size:cover;
+    background-size:100% 100%;
     background-image: url("third.jpg");
 }
 .border1{
@@ -197,7 +235,7 @@ span{
     height: 400px;
     width: 400px;
     border-radius: 4px;
-    background-size: cover;
+    background-size:100% 100%;
     background-image: url(boxbak.png);
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -212,7 +250,7 @@ span{
     height: 80%;
     width: 80%;
      margin: 20px ;
-    background-size:cover;
+    background-size:100% 100%;
     background-image: url("forth1.jpg");
     color: #0f1111;
 }
@@ -220,21 +258,21 @@ span{
     height: 80%;;
     width: 80%;;
      margin: 20px ;
-    background-size: cover;
+    background-size:100% 100%;
     background-image: url("forth2.jpg");
 }
 .content-sfirst3{
     height: 80%;
     width: 80%;
      margin: 20px ;
-    background-size: cover;
+    background-size: 100% 100%;
     background-image: url("forth3.jpg");
 }
 .content-sfirst4{
     height: 80%;
     width: 80%;
      margin: 20px ;
-    background-size: cover;
+    background-size: 100% 100%;
     background-image: url("forth4.jpg");
 }
 
@@ -246,7 +284,7 @@ span{
     height: 400px;
     width: 400px;
     border-radius: 4px;
-    background-size: cover;
+    background-size:100% 100%;
     background-image: url(boxbak.png);
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -256,28 +294,28 @@ span{
     height: 75%;
     width: 75%;
     margin: 20px;
-    background-size:cover;
+    background-size:100% 100%;
     background-image: url("five1.jpg");
 }
 .content-ssecond2{
     height: 75%;
     width: 75%;
     margin: 20px;
-    background-size:cover;
+    background-size:100% 100%;
     background-image: url("five2.jpg");
 }
 .content-ssecond3{
     height: 75%;
     width: 75%;
     margin: 20px;
-    background-size:cover;
+    background-size:100% 100%;
     background-image: url("five3.jpg");
 }
 .content-ssecond4{
     height: 75%;
     width: 75%;
     margin: 20px;
-    background-size:cover;
+    background-size:100% 100%;
     background-image: url("five4.jpg");
     
 }
@@ -288,7 +326,7 @@ span{
     height: 400px;
     width: 400px;
     border-radius: 4px;
-    background-size: cover;
+    background-size: 100% 100%;
     background-image: url(boxbak.png);
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -298,28 +336,28 @@ span{
     height: 75%;
     width: 75%;
     margin: 20px;
-    background-size:cover;
+    background-size:100% 100%;
     background-image: url("six1.jpg");
 }
 .content-sthird2{
     height: 75%;
     width: 75%;
     margin: 20px;
-    background-size:cover;
+    background-size:100% 100%;
     background-image: url("six2.jpg");
 }
 .content-sthird3{
     height: 75%;
     width: 75%;
     margin: 20px;
-    background-size:cover;
+    background-size:100% 100%;
     background-image: url("six3.jpg");
 }
 .content-sthird4{
     height: 75%;
     width: 75%;
     margin: 20px;
-    background-size:cover;
+    background-size:100% 100%;
     background-image: url("six4.jpg");
 }
 /** third row**/
@@ -343,7 +381,7 @@ span{
     width: 75%;
     margin: 0.5%;
     background-color: brown;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 .third-row-firstbox{
  background-image: url(sevan1.jpg);
